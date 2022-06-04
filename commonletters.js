@@ -1,16 +1,3 @@
-let terms = [
-  "duel",
-  "dule",
-  "speed",
-  "spede",
-  "deul",
-  "cars",
-  "racs",
-  "shape",
-  "shpea",
-  "tiger",
-  "triger"
-];
 function createResult() {
   let result = [];
   let userInput = prompt("Enter the word");
