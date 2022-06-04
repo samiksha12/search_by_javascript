@@ -1,5 +1,5 @@
-let result = [];
-let terms = [
+let groupResult = [];
+let title = [
   "duel",
   "dule",
   "speed",
