@@ -1,5 +1,15 @@
 //with initial letter
-let terms = ["spdee","speed", "shape", "spede", "age", "aeg", "tiger", "triger"];
+let terms = [
+  "duel",
+  "dule",
+  "speed",
+  "spede",
+  "deul",
+  "cars",
+  "racs",
+  "shape",
+  "shpea",
+  ];
 let groupTerms = {};
 
 for (i = 0; i < terms.length; i++) {
@@ -23,9 +33,10 @@ function pushValueGroupTerms(termInitial, term) {
     }
   }
 }
-const userInput=prompt("Enter the word");
-searchTerms(userInput);
+// const userInput=prompt("Enter the word");
+// searchTerms(userInput);
 
-function searchTerms(userInput){
-    console.log(groupTerms[userInput[0]]);
-}
+// function searchTerms(userInput){
+//     console.log(groupTerms[userInput[0]]);
+// }
+

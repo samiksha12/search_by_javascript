@@ -5,19 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script type="text/javascript" src="/commonletters.js"></script>
   </head>
   <body>
-    <div style="font-size: 25px;">
-      JS Search demo: Terms that I have used = ["spdee","speed", "shape",
-      "spede", "age", "aeg", "tiger", "triger"] (check output in console)
-    </div>
-    <div>
-      I have done two search method<br> 1.
-      <a href="/initialletter.html">Search by initial letter</a> : here only the
-      1st letter will be compared<br> 2.<a href="/commonletter.html"
-        >Search by common word</a
-      >
-      : here common word will be compared but not more than the specified words
+    <div class="container">
+      <div class="container-table">
+        <div class="table-header"><h3>Output</h3></div>
+        <div class="table-header"><h3>Method</h3></div>
+        <div class="table-header"><h3>Explaination</h3></div>
+        <div class="column column1">
+          <div class="output">
+            <pre>
+Input: cars 
+Output: [ "cars", "racs", ]</pre
+            >
+          </div>
+          <a class="button-like"href="#" onclick="createResult()">Click here</a>
+        </div>
+        <div class="column column2">
+          Grouping only titles/terms which match the user input
+        </div>
+        <div class="column column3">
+          Here I am avoiding other values from title/term array and just
+          grouping the values which matches user input.
+        </div>
+        <div class="column column1">
+          <div class="output">
+            <pre>
+Input: cars 
+Output: [ "cars", "racs", ]</pre
+            >
+          </div>
+          <a class="button-like r" href="#">Click here</a>
+        </div>
+        <div class="column column2">
+          Grouping titles/terms and then matching user input
+        </div>
+        <div class="column column3">
+          Here I am grouping values from title/term array and then searching for
+          the value from grouped array and extracting the array which matches
+          the user input.
+        </div>
+      </div>
     </div>
   </body>
 </html>
