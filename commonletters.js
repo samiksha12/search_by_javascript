@@ -9,6 +9,8 @@ let terms = [
   "racs",
   "shape",
   "shpea",
+  "tiger",
+  "triger"
 ];
 function createResult() {
   let userInput = prompt("Enter the word");
