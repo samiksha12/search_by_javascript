@@ -1,4 +1,3 @@
-let result = [];
 let terms = [
   "duel",
   "dule",
@@ -13,6 +12,7 @@ let terms = [
   "triger"
 ];
 function createResult() {
+  let result = [];
   let userInput = prompt("Enter the word");
   for (i = 0; i < terms.length; i++) {
     if (compareInput(terms[i], userInput)) {
