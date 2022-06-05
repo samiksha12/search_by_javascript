@@ -1,4 +1,5 @@
 //with initial letter
+//here I am searching/grouping the words with respect to initial letter of userInput 
 let terms = [
   "duel",
   "dule",
@@ -33,10 +34,10 @@ function pushValueGroupTerms(termInitial, term) {
     }
   }
 }
-// const userInput=prompt("Enter the word");
-// searchTerms(userInput);
+const userInput=prompt("Enter the word");
+searchTerms(userInput);
 
-// function searchTerms(userInput){
-//     console.log(groupTerms[userInput[0]]);
-// }
+function searchTerms(userInput){
+    console.log(groupTerms[userInput[0]]);
+}
 
