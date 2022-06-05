@@ -17,8 +17,15 @@ function groupTitle() {
 
   console.log(uniqueArray);
 
-  // let resultArray = uniqueArray.find((item) => {});===========================
-  // console.log(resultArray);
+  let resultArray = [];
+  uniqueArray.find((item) => {
+   item.forEach(element => {
+      if(element === userInput){
+       resultArray= item;
+      } 
+    });
+  });
+  console.log(resultArray);
 }
 
 function removeDuplicate(groupTerms) {
